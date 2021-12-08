@@ -1,0 +1,25 @@
+{
+    "name": "tris/php-brackets",
+    "description": "Determine pairing brackets",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tris\\PhpBrackets\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tris",
+            "email": "trisulipras@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}
